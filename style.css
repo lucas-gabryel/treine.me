@@ -1,0 +1,51 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 65px auto 58px;
+}
+
+header p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #89C5CC;
+}
+
+header li {
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #1F1534;
+    opacity: 0.5;
+
+    /* Nescessário fazer alteração para quando ficar clicado ficar mais preto. */
+}
+
+ul {
+    border: 1px solid red;
+
+    display: flex;
+    gap: 48px;
+    padding-left: 635px;
+}
+
+li {
+    border: 1px solid blue;
+}
+
