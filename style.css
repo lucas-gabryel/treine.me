@@ -27,6 +27,12 @@ header p {
     color: #89C5CC;
 }
 
+header ul {
+    display: flex;
+    gap: 48px;
+    padding-left: 635px;
+}
+
 header li {
     font-family: 'Mulish', sans-serif;
     font-size: 18px;
@@ -37,15 +43,14 @@ header li {
     /* Nescessário fazer alteração para quando ficar clicado ficar mais preto. */
 }
 
-ul {
+#one {
     border: 1px solid red;
 
     display: flex;
-    gap: 48px;
-    padding-left: 635px;
+    justify-content: center;
 }
 
-li {
-    border: 1px solid blue;
+#one img {
+    padding-left: 102px;
 }
 
