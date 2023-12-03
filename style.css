@@ -39,8 +39,10 @@ header li {
     font-weight: 400;
     color: #1F1534;
     opacity: 0.5;
+}
 
-    /* Nescessário fazer alteração para quando ficar clicado ficar mais preto. */
+header li:hover {
+    font-weight: 700;
 }
 
 #hero {
@@ -91,5 +93,15 @@ button {
 
 #f {
     margin: 20px auto 40px;
+}
+
+footer {
+    border: 1px solid red;
+}
+
+#balls {
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
