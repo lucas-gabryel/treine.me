@@ -10,14 +10,18 @@ body {
     font-weight: 400;
 
     text-align: center;
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0.00) 82.08%, rgba(227, 255, 248, 0.38) 100%);
 }
 
 header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    margin: 65px auto 58px;
+    justify-content: space-between;
+    padding-top: 65px;
+    margin: 0 auto;
+    width: 1008px;
 }
 
 header p {
@@ -30,7 +34,6 @@ header p {
 header ul {
     display: flex;
     gap: 48px;
-    padding-left: 635px;
 }
 
 header ul li a {
@@ -43,15 +46,18 @@ header ul li a {
 
 header ul li a:hover {
     font-weight: 700;
+    color: black;
 }
 
 #hero {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 1008px;
+    margin: 58px auto 80px;
 }
 
 #hero div {
-    padding-top: 51px;
     text-align: start;
 }
 
@@ -67,10 +73,6 @@ header ul li a:hover {
     color: #89C5CC;
 }
 
-#one {
-    padding-left: 102px;
-}
-
 button {
     display: flex;
     gap: 12px;
@@ -83,14 +85,21 @@ button {
 
     justify-content: center;
     align-items: center;
+
+    
+}
+
+button:hover {
+    background: rgb(22, 156, 22);
 }
 
 #f {
     margin: 20px auto 40px;
 }
 
-footer {
-    border: 1px solid red;
+footer a {
+    color: #1F1534;
+    font-weight: bold;
 }
 
 #balls {
