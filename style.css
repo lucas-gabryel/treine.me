@@ -43,14 +43,53 @@ header li {
     /* Nescessário fazer alteração para quando ficar clicado ficar mais preto. */
 }
 
-#one {
+#hero {
     border: 1px solid red;
 
     display: flex;
     justify-content: center;
 }
 
-#one img {
+#hero div {
+    border: 1px solid blue;
+
+    padding-top: 51px;
+    text-align: start;
+}
+
+#hero div h1 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 49px;
+
+    margin-bottom: 40px;
+
+    border: 1px solid green;
+}
+
+#hero div h1 strong {
+    color: #89C5CC;
+}
+
+#one {
     padding-left: 102px;
+}
+
+button {
+    display: flex;
+    gap: 12px;
+    padding: 15px 32px 16px;
+    border-radius: 4px;
+
+    background-color: green;
+    border: 0;
+    color: white;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#f {
+    margin: 20px auto 40px;
 }
 
