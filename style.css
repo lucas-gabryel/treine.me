@@ -33,7 +33,7 @@ header ul {
     padding-left: 635px;
 }
 
-header li {
+header ul li a {
     font-family: 'Mulish', sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -41,20 +41,16 @@ header li {
     opacity: 0.5;
 }
 
-header li:hover {
+header ul li a:hover {
     font-weight: 700;
 }
 
 #hero {
-    border: 1px solid red;
-
     display: flex;
     justify-content: center;
 }
 
 #hero div {
-    border: 1px solid blue;
-
     padding-top: 51px;
     text-align: start;
 }
@@ -65,8 +61,6 @@ header li:hover {
     font-size: 49px;
 
     margin-bottom: 40px;
-
-    border: 1px solid green;
 }
 
 #hero div h1 strong {
