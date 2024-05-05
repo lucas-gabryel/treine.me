@@ -2,7 +2,7 @@
 # Lading page para personal treiner
 
 Projeto proposto pela Rocketseat para desenvolver habilidades básicas de construção de sites.
-[![Página web finalizada](./img/end-page.png)]
+![Página web finalizada](./img/end-page.png)
 
 ## 📖 Aprendizados
 
